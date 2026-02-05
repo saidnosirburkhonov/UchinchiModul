@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Dars3._1
+﻿namespace Dars3._1
 {
     public class MyList : IMyList
     {
@@ -95,21 +90,19 @@ namespace Dars3._1
                     --arrIndex;
 
                 }
-                --i; 
+                --i;
             }
             return true;
         }
 
         public bool RemoveAt(int index)
         {
-            
-                
-                    for (var j = index; j < Capacity -1; j++)
-                    {
-                        _nums[j] = _nums[j + 1];
-                        return true;
-                    }
-                
+            for (var j = index; j < Capacity - 1; j++)
+            {
+                _nums[j] = _nums[j + 1];
+                return true;
+            }
+
             return false;
         }
 
