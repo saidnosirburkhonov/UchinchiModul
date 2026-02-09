@@ -20,7 +20,7 @@ public class PostsController : ControllerBase
     public Guid Create(PostCreateDto postCreateDto)
     {
         var createdPost = PostService.CreatePost(postCreateDto);
-        return createdPost.PostId;
+        return createdPost;
     }
 
     [HttpGet("get-all")]

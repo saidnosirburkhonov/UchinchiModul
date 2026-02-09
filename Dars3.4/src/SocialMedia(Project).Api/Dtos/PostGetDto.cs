@@ -1,12 +1,11 @@
-﻿namespace SocialMedia.Api.Dtos;
+﻿namespace SocialMedia_Project_.Api.Dtos;
 
 public class PostGetDto
 {
     public Guid PostId { get; set; }
     public string Title { get; set; }
     public string Content { get; set; }
-    public DateTime CreatedAt { get; set; }
-    public DateTime UpdatedAt { get; set; }
-
+    public DateTime CreatedTime { get; set; }
+    public DateTime UpdatedTime { get; set; }
     public Guid UserId { get; set; }
 }

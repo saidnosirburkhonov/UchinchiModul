@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="ConsoleApp1/ConsoleApp1.csproj" Id="54b8064b-97e8-4232-af30-9c13cb27e38d" />
     <Project Path="src/SocialMedia.Api/SocialMedia.Api.csproj" />
   </Folder>
 </Solution>
